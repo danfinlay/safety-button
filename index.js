@@ -1,2 +1,2 @@
 // index.js
-export { default as SafetyButton } from "./src/SafetyButton";
+export { default as SafetyButton } from "./dist/SafetyButton";

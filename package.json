@@ -2,9 +2,9 @@
   "name": "safety-button",
   "version": "1.0.3",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-	"build": "babel src --out-dir dist --extensions '.js,.jsx'",
+    "build": "babel src --out-dir dist --extensions '.js,.jsx'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
+    "@babel/plugin-syntax-jsx": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
     "@babel/preset-react": "^7.18.6"
   }
